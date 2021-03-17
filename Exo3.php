@@ -2,8 +2,8 @@
 $foo = true;
 echo $foo;
 
-$nombre1 = 1.5 ;      // Réel
-$nombre2 = 12 ;       // Entier
+$nombre2 = 2005 ;      // Réel
+$nombre3 = 12 ;       // Entier
 $chaine1 = "10" ;     // Chaîne
 $chaine2 = 'coucou' ; // Chaîne
 
