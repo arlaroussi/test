@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<center><title> Formulaire d'inscription </title></center>
+			<meta charset="UTF-8"/>
+			<link rel="stylesheet" id = "formu" type="text/css" href="css_n2.css">
+			<div id="formu">
+		</head>
+
+
+		<head><h1> Formulaire connexion</h1></head>
+
+		<body>
+    
+    <form name="form" id="formulaire" method="POST" action="script_login_bdd.php">
+
+    <table>
+        <th colspan="2">Information</th>
+
+        <tr>  
+            <td> <label for="login"><B>Login</B></label> :</td> 
+            <td> <input type="text" name="login" id="nom"  placeholder="Votre nom" size="27"/></td>  
+        </tr>
+        <tr>  
+            <td> <label for="passwd"><B>Mot de passe</B></label> : </td> 
+            <td> <input type="password" name="passwd" id="prenom" placeholder="Votre prénom" size="27" /> </td>  
+        </tr>     
+    </table>
+        <input type="submit" value="Valider" id="envoyer" name="env"/> <input type="reset" value="Reset" id="reset"/>
+    </form>
+</body>
+</html>
